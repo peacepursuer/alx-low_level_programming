@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: 0 (success)
- */
+* main - Entry point
+*
+* Return: 0 (success)
+*/
 int main(void)
 {
-  int i = 0;
-  char text[] = "_putchar";
+int i = 0;
+char text[] = "_putchar";
 
-  while (text[i] != '\0')
-    {
-      _putchar(text[i]);
-      i++;
-    }
-  _putchar('\n');
+while (text[i] != '\0')
+{
+_putchar(text[i]);
+i++;
+}
+_putchar('\n');
 
-  return (0);
+return (0);
 }
